@@ -11,7 +11,7 @@ export const projectsData = [
     techStack: [
       { tech: "react", logo: "/icons/react.png", width: 60 },
       { tech: "firebase", logo: "/icons/firebase.png", width: 60 },
-      { tech: "hmtl", logo: "/icons/html.png", width: 60 },
+      { tech: "html", logo: "/icons/html.png", width: 60 },
       { tech: "bootstrap", logo: "/icons/bootstrap.png", width: 80 },
     ],
   },

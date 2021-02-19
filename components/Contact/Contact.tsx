@@ -1,7 +1,7 @@
 import * as React from 'react'
 import styled from 'styled-components'
-
-import ContactForm from './ContactForm'
+import { FiSend } from 'react-icons/fi'
+import { motion } from 'framer-motion'
 
 const Contact = () => {
   return (
@@ -11,9 +11,13 @@ const Contact = () => {
         <Tagline>
           Just wanna say hi or are interested in retaining my services for a
           project? <br />
-          Hit me up using the form and I will get back to you asap.
+          Hit me up on one of the links at the top or
         </Tagline>
-        <ContactForm />
+        <a href="mailto:suhitagarwal@gmail.com?subject=Contact%20From%20Portfolio" target="_blank" rel="noreferrer noopener">
+          <Button whileHover={{ y: -1 }}>
+            <FiSend style={{ marginRight: 7 }} /> Shoot me an email!
+          </Button>
+        </a>
       </Container>
     </Wrapper>
   )
@@ -53,5 +57,34 @@ const Tagline = styled.h3`
 
   @media (max-width: 500px) {
     line-height: 1.5em;
+  }
+`
+
+const Button = styled(motion.button)`
+  border: none;
+  padding: 0.9em 1.3em;
+  font-size: 1.8rem;
+  border-radius: 5px;
+  background: #0088FF;
+  color: #f4f4f4;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  will-change: transform;
+  filter: drop-shadow(0 0 0.75rem rgba(0, 136, 255, 0.5));
+
+  &:first-of-type {
+    margin-right: 2.5rem;
+  }
+
+  @media (max-width: 500px) {
+    width: 100%;
+    justify-content: center;
+
+    &:first-of-type {
+      margin-right: 0;
+      margin-bottom: 2rem;
+    }
   }
 `
