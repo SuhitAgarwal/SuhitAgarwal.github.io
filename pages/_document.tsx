@@ -34,9 +34,10 @@ export default class MyDocument extends Document {
         <Head>
           <meta charSet="utf-8" />
           <meta httpEquiv="X-UA-Compatible" content="ie=edge" />
-          <meta
+          <meta name="title" content="Suhit Agarwal" />
+          <meta name="image" content="/website.png" />
             name="description"
-            content="Based out of Montreal, I'm a full-stack developer with a passion for all things tech.
+            content="Hailing from India, I am a university student with a passion for all things tech.
             "
           />
           <meta name="theme-color" content="#000" />
@@ -44,10 +45,10 @@ export default class MyDocument extends Document {
           <meta name="og:url" content="https://voc-ab.com" />
           <meta
             name="og:description"
-            content="Based out of Montreal, I'm a full-stack developer with a passion for all things tech.
+            content="Hailing from India, I am a university student with a passion for all things tech.
             "
           />
-          <meta name="og:image" content="/og-image1.png" />
+          <meta name="og:image" content="/website.png" />
           <link href="/manifest.json" rel="manifest" />
           <link
             rel="apple-touch-icon"
