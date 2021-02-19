@@ -109,7 +109,11 @@ const Card: React.FC<Props> = ({
               <FiCode style={{ marginRight: 7 }} /> View source code
             </ButtonSource>
           </a>
-        ) : ""}
+        ) : (
+          <ButtonSource whileHover={{ y: -1 }}>
+            <FiCode style={{ marginRight: 7 }} /> Source brewing...
+          </ButtonSource>
+        )}
       </ButtonGroup>
     </Wrapper>
   )

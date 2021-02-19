@@ -24,6 +24,7 @@ export const projectsData = [
       in-sync with a friend, as well as share your screen. The project is in production andand will soon be live.
       Also, new features would be added as I move forward. This is a completely personal project.`,
     website: "",
+    github: "",
     techStack: [
       { tech: "nextjs", logo: "/icons/nextjs.png", width: 120 },
       { tech: "react", logo: "/icons/react.png", width: 60 },
@@ -38,6 +39,7 @@ export const projectsData = [
     description:
       `A game created with Unity to raise awareness about the environment and the plastics in the ocean. Participated with a group of five in NASA's Space Apps and Ludum Dare 47 using this project.`,
     website: "https://founding-hackers.github.io",
+    github: "https://github.com/Founding-Hackers/Founding-Hackers.github.io",
     techStack: [
       { tech: "c-sharp", logo: "/icons/c-sharp.png", width: 60 },
       { tech: "unity", logo: "/icons/unity.png", width: 60 },
