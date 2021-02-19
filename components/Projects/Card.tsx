@@ -109,7 +109,7 @@ const Card: React.FC<Props> = ({
               <FiCode style={{ marginRight: 7 }} /> View source code
             </ButtonSource>
           </a>
-        ) : null}
+        ) : ""}
       </ButtonGroup>
     </Wrapper>
   )
