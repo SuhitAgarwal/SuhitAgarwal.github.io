@@ -36,6 +36,7 @@ export default class MyDocument extends Document {
           <meta httpEquiv="X-UA-Compatible" content="ie=edge" />
           <meta name="title" content="Suhit Agarwal" />
           <meta name="image" content="/website.png" />
+          <meta
             name="description"
             content="Hailing from India, I am a university student with a passion for all things tech.
             "
