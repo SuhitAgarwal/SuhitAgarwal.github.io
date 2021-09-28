@@ -1,7 +1,7 @@
 import * as React from 'react'
 import styled from 'styled-components'
 import Link from 'next/link'
-import { FiGithub, FiLinkedin, FiBehance } from 'react-icons/fi'
+import { FiGithub, FiLinkedin, FiBehance } from 'react-icons/fa'
 import { motion } from 'framer-motion'
 import { FaReadme } from 'react-icons/fa'
 
@@ -38,7 +38,7 @@ const Navbar = () => {
               rel="noopener noreferrer"
             >
               <span hidden>Github</span>
-              <FiGithub color="#f4f4f4" size={24} />
+              <FaGithub color="#f4f4f4" size={24} />
             </motion.a>
             <motion.a
               whileHover={{ rotate: 7 }}
@@ -47,7 +47,7 @@ const Navbar = () => {
               rel="noopener noreferrer"
             >
               <span hidden>LinkedIn</span>
-              <FiLinkedin color="#f4f4f4" size={24} />
+              <FaLinkedin color="#f4f4f4" size={24} />
             </motion.a>
             <motion.a
               whileHover={{ rotate: 7 }}
@@ -56,7 +56,7 @@ const Navbar = () => {
               rel="noopener noreferrer"
             >
               <span hidden>Behance</span>
-              <FiBehance color="#f4f4f4" size={24} />
+              <FaBehance color="#f4f4f4" size={24} />
             </motion.a>
           </div>
         </Menu>

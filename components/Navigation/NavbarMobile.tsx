@@ -15,7 +15,7 @@ const NavbarMobile: React.FC<Props> = ({ setToggleDropdown }) => {
             <path
               d="M 1 2 C 1 1.448 1.448 1 2 1 L 22 1 C 22.552 1 23 1.448 23 2 L 23 3 C 23 3.552 22.552 4 22 4 L 2 4 C 1.448 4 1 3.552 1 3 Z"
               fill="#5496FF"
-            ></path>
+            ></path>fi
             <path
               d="M 1 7 C 1 6.448 1.448 6 2 6 L 17 6 C 17.552 6 18 6.448 18 7 L 18 8 C 18 8.552 17.552 9 17 9 L 2 9 C 1.448 9 1 8.552 1 8 Z"
               fill="#5496FF"
