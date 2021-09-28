@@ -1,7 +1,7 @@
 import * as React from 'react'
 import styled from 'styled-components'
 import Link from 'next/link'
-import { FiGithub, FiLinkedin, FiBehance } from 'react-icons/fa'
+import { FaGithub, FaLinkedin, FaBehance } from 'react-icons/fa'
 import { motion } from 'framer-motion'
 import { FaReadme } from 'react-icons/fa'
 
