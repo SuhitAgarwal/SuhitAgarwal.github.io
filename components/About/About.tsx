@@ -33,9 +33,9 @@ const About = () => {
       )
   }, [])
 
-  const description = `Hailing from India, I'm currently a Sophomore at the University
+  const description = `Hailing from India, I'm currently a Junior at the University
   of Southern California, Los Angeles studying Computer Science and 
-  Engineering. Currently freelancing, I enjoy continually learning
+  Engineering. Currently freelancing, I enjoy constantly learning
   new concepts and staying up-to-date with the latest tech in this
   fast-paced environment. When not coding, I love to design stuff. 
   I also recently took an interest in creating games using Unity although

@@ -1,7 +1,7 @@
 import * as React from 'react'
 import styled from 'styled-components'
 import Link from 'next/link'
-import { FiGithub, FiLinkedin, FiInstagram } from 'react-icons/fi'
+import { FiGithub, FiLinkedin, FiBehance } from 'react-icons/fi'
 import { motion } from 'framer-motion'
 import { FaReadme } from 'react-icons/fa'
 
@@ -51,12 +51,12 @@ const Navbar = () => {
             </motion.a>
             <motion.a
               whileHover={{ rotate: 7 }}
-              href="https://www.instagram.com/suhitdoingthings"
+              href="https://behance.net/SuhitAgarwal"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <span hidden>Instagram</span>
-              <FiInstagram color="#f4f4f4" size={24} />
+              <span hidden>Behance</span>
+              <FiBehance color="#f4f4f4" size={24} />
             </motion.a>
           </div>
         </Menu>
