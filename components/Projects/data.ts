@@ -19,12 +19,12 @@ export const projectsData = [
     title: "a video-chat platform",
     image: "/chat.png",
     description:
-      `This is going to be a free 1-to-1 P2P audio/video and chat platform. It will provide a secure 
+      `This is a free 1-to-1 P2P audio/video and chat platform. It will provide a secure 
       way of communicating on the web. Besides chatting, you will also be able to watch Youtube videos
       in-sync with a friend, as well as share your screen. The project is in production andand will soon be live.
       Also, new features would be added as I move forward. This is a completely personal project.`,
-    website: "",
-    github: "",
+    website: "https://stream.suhit.me",
+    github: "https://github.com/SuhitAgarwal/streamwithfriends.online",
     techStack: [
       { tech: "nextjs", logo: "/icons/nextjs.png", width: 120 },
       { tech: "react", logo: "/icons/react.png", width: 60 },
