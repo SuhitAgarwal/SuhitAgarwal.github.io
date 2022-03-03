@@ -53,7 +53,7 @@ export const projectsData = [
     image: "/masstracker.png",
     description:
       `A potential crowdsourced crowd detection platform to track and curb the rise of the COVID-19 virus. Built during a university hackathon and secured the Runners Up prize with the solution.`,
-    website: "",
+    website: "https://suhitagarwal.github.io/TheMassTracker/",
     github: "https://github.com/anubhavbagri/The-Mass-Tracker",
     techStack: [
       { tech: "html", logo: "/icons/html.png", width: 60 },
