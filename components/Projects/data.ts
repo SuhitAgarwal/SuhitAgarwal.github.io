@@ -6,7 +6,7 @@ export const projectsData = [
       `This project started as a want to do something for the hundreds of thousands of students
       who struggle every year with their standardized tests to get into their dream colleges. My friends
       and I struggled with the same thing and so we made a vocabulary learning application to help everyone.`,
-    website: "https://voc-ab.com",
+    website: "https://nerd-devz.github.io/",
     github: "https://github.com/Nerd-DevZ/Nerd-DevZ.github.io",
     techStack: [
       { tech: "react", logo: "/icons/react.png", width: 60 },
